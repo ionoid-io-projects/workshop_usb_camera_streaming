@@ -9,7 +9,12 @@ sudo apt-get install ffmpeg
 
 ## Configure ffmpeg server
 
-Copy file "ffserver_workshop.conf" to your raspberry pi home directory /home/pi/
+Download the file "ffserver_workshop.conf" to your home directory using
+the following command:
+
+```
+curl -O https://raw.githubusercontent.com/ionoid-io-projects/workshop_usb_camera_streaming/master/ffserver_workshop.conf
+```
 
 ## Launch streaming server
 
