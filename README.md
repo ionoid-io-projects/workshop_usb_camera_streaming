@@ -1,5 +1,16 @@
 # Video streaming using ffmpeg
 
+## 1- Power your raspberry
+
+You can achive it with connecting it to your pc trought the Micro USB Port of the raspberry pi
+
+![power](doc/img/1-min.jpg)
+
+## 2- Connect to your raspberry pi
+Using putty if you're on windows, Ssh if you're on a linux based os
+Follow the following instruction if you dont know how to connect to raspberry pi
+[Connect to raspberry pi using Putty](https://github.com/ionoid-io-projects/workshop/blob/master/doc/od-iot-raspbian-rpi-zero-windows.md#5-first-boot)
+
 ## Installation
 Install ffmpeg on Raspberry Pi and execute it.
 
@@ -29,10 +40,6 @@ Execute ffmpeg with the following parameters.
 ffmpeg -f v4l2 -s 640x480 -r 15 -i /dev/video0 http://rpi_device_ip:8080/camera.ffm
 ```
 Replace 'rpi_device_ip' with the ip of your raspberry pi, 
-To get the device ip execute on your raspberry pi 
-```
-ip a
-```
 
 ## access to your camera stream from your desktop
 
