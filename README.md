@@ -4,7 +4,7 @@
 
 You can achive it with connecting it to your pc trought the Micro USB Port of the raspberry pi
 
-![power](doc/img/1-min.jpg)
+![power](1-min.jpg)
 
 ## 2- Connect to your raspberry pi
 Using putty if you're on windows, Ssh if you're on a linux based os
