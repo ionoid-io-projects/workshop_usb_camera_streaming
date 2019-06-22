@@ -41,6 +41,9 @@ ffmpeg -f v4l2 -s 640x480 -r 15 -i /dev/video0 http://rpi_device_ip:8080/camera.
 ```
 Replace 'rpi_device_ip' with the ip of your raspberry pi, 
 
+## How to stop the program
+To quit or stop the program click on **Ctrl+C**
+
 ## access to your camera stream from your desktop
 
 On your computer use the browser to connect at *http://rpi_device_ip:8080/camera.mjpeg*
